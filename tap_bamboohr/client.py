@@ -47,7 +47,7 @@ class TapBambooHRStream(RESTStream):
             "ssn": th.StringType,
             "phone": th.StringType,
             "gender": th.StringType,
-            "currency": th.NumberType,
+            "currency": th.StringType,
             "checkbox": th.BooleanType,
             "state": th.StringType,
             "marital_status": th.StringType,
